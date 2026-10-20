@@ -5,7 +5,7 @@
 #No funciona con parámetros que no sean una lista.
 
 import pytest
-from bubble_sort import bubble_sort
+from my_first_repository.module_1.unit_testing_w16.bubble_sort import bubble_sort
 import random
 
 def test_bubble_sort_with_small_list_sort_all_items():

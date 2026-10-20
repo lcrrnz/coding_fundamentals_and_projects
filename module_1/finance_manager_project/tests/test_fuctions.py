@@ -3,9 +3,9 @@ import os
 import sys
 from datetime import datetime
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from utilities.math_logic import Calculations
-from utilities.validate_date import validate_date
-from data.data_saving import CategoriesData
+from my_first_repository.module_1.finance_manager_project.utilities.math_logic import Calculations
+from my_first_repository.module_1.finance_manager_project.utilities.validate_date import validate_date
+from my_first_repository.module_1.finance_manager_project.data.data_saving import CategoriesData
 
 class TestFinanceLogic(unittest.TestCase):
 

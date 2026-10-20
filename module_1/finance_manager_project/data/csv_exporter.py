@@ -2,7 +2,7 @@
 import os
 import json
 import csv
-from utilities.math_logic import Calculations
+from my_first_repository.module_1.finance_manager_project.utilities.math_logic import Calculations
 
 class DataHandler:
     def __init__(self, file_name="finance_report.csv", json_file="data.json"):

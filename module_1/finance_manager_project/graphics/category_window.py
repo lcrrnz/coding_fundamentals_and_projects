@@ -1,8 +1,8 @@
 # This program manages category creation, editing, and deletion within the app.
 import FreeSimpleGUI as sg
-from data import data_saving
-from utilities.load_category_table import load_categories
-from utilities.table_update import update_table
+from my_first_repository.module_1.finance_manager_project.data import data_saving
+from my_first_repository.module_1.finance_manager_project.utilities.load_category_table import load_categories
+from my_first_repository.module_1.finance_manager_project.utilities.table_update import update_table
 
 def create_category_window():
     layout = [

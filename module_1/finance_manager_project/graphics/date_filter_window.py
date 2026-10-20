@@ -1,10 +1,10 @@
 #this program holds the logic for date filtering data window.
 import FreeSimpleGUI as sg
 from datetime import datetime
-from utilities.table_builder import build_table
-from utilities.table_update import update_table
-from utilities.validate_date import validate_date
-from utilities.math_logic import Calculations
+from my_first_repository.module_1.finance_manager_project.utilities.table_builder import build_table
+from my_first_repository.module_1.finance_manager_project.utilities.table_update import update_table
+from my_first_repository.module_1.finance_manager_project.utilities.validate_date import validate_date
+from my_first_repository.module_1.finance_manager_project.utilities.math_logic import Calculations
 
 def date_filter(data, categories):
     headings = ["Category", "Type", "Title", "Amount", "Date"]

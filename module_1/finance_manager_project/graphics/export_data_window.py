@@ -1,9 +1,9 @@
 #this program hold the logic to download data to CSV
 import FreeSimpleGUI as sg
 from datetime import datetime
-from utilities.table_builder import build_table
-from data.csv_exporter import DataHandler
-from utilities.math_logic import Calculations
+from my_first_repository.module_1.finance_manager_project.utilities.table_builder import build_table
+from my_first_repository.module_1.finance_manager_project.data.csv_exporter import DataHandler
+from my_first_repository.module_1.finance_manager_project.utilities.math_logic import Calculations
 
 def export_data_window(data, categories):
     headings = ["Category", "Type", "Title", "Amount", "Date"]

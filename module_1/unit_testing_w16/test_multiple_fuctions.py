@@ -1,10 +1,10 @@
 import pytest
 # import random
-from multiple_fuctions import list_sum
-from multiple_fuctions import reverse_string
-from multiple_fuctions import spelling_check
-from multiple_fuctions import alphabetic_order_list
-from multiple_fuctions import main
+from my_first_repository.module_1.unit_testing_w16.multiple_fuctions import list_sum
+from my_first_repository.module_1.unit_testing_w16.multiple_fuctions import reverse_string
+from my_first_repository.module_1.unit_testing_w16.multiple_fuctions import spelling_check
+from my_first_repository.module_1.unit_testing_w16.multiple_fuctions import alphabetic_order_list
+from my_first_repository.module_1.unit_testing_w16.multiple_fuctions import main
 
 
 #test list_sum fuction and raise errors

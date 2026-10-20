@@ -1,16 +1,16 @@
 # This program coordinates the financial manager’s interface and updates the main table based on user actions.
 import FreeSimpleGUI as sg
 from datetime import datetime
-from graphics import category_window
-from graphics.date_filter_window import date_filter
-from graphics.expense_window import main_expense_window
-from graphics.export_data_window import export_data_window
-from graphics.income_window import main_income_window
-from data import data_saving
-from utilities.table_builder import build_table
-from utilities.load_category_table import load_categories
-from utilities.table_update import update_table
-from utilities.math_logic import Calculations
+from my_first_repository.module_1.finance_manager_project.graphics import category_window
+from my_first_repository.module_1.finance_manager_project.graphics.date_filter_window import date_filter
+from my_first_repository.module_1.finance_manager_project.graphics.expense_window import main_expense_window
+from my_first_repository.module_1.finance_manager_project.graphics.export_data_window import export_data_window
+from my_first_repository.module_1.finance_manager_project.graphics.income_window import main_income_window
+from my_first_repository.module_1.finance_manager_project.data import data_saving
+from my_first_repository.module_1.finance_manager_project.utilities.table_builder import build_table
+from my_first_repository.module_1.finance_manager_project.utilities.load_category_table import load_categories
+from my_first_repository.module_1.finance_manager_project.utilities.table_update import update_table
+from my_first_repository.module_1.finance_manager_project.utilities.math_logic import Calculations
 
 def main_window():
     transaction_handler = data_saving.TransactionData()

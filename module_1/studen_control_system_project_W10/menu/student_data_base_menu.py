@@ -1,12 +1,12 @@
 import sys
 sys.path.append("C:/Users/Coqui/Documents/Curso Python/lifter/my_first_repository/Semana_10_project")  
 
-from actions.enter_student_info import students_entry
-from actions.view_student_info import view_info_storaged
-from actions.calculate_average import scores_average
-from actions.top_scores import top_three_highest
-from data.export_score_csv import csv_file_creation
-from data.import_score_csv import find_and_read_file
+from my_first_repository.module_1.studen_control_system_project_W10.actions.enter_student_info import students_entry
+from my_first_repository.module_1.studen_control_system_project_W10.actions.view_student_info import view_info_storaged
+from my_first_repository.module_1.studen_control_system_project_W10.actions.calculate_average import scores_average
+from my_first_repository.module_1.studen_control_system_project_W10.actions.top_scores import top_three_highest
+from my_first_repository.module_1.studen_control_system_project_W10.data.export_score_csv import csv_file_creation
+from my_first_repository.module_1.studen_control_system_project_W10.data.import_score_csv import find_and_read_file
 
 def data_base_menu():
     print("Welcome to the student's database")

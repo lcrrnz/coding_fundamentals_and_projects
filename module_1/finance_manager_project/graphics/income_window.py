@@ -1,11 +1,11 @@
 # This program handles income registration with field validation and calendar-based date selection.
 import FreeSimpleGUI as sg
-from data import data_saving
-from utilities.table_builder import build_table
-from utilities.table_update import update_table
-from utilities.load_category_table import load_categories
-from utilities.validate_date import validate_date
-from utilities.math_logic import Calculations
+from my_first_repository.module_1.finance_manager_project.data import data_saving
+from my_first_repository.module_1.finance_manager_project.utilities.table_builder import build_table
+from my_first_repository.module_1.finance_manager_project.utilities.table_update import update_table
+from my_first_repository.module_1.finance_manager_project.utilities.load_category_table import load_categories
+from my_first_repository.module_1.finance_manager_project.utilities.validate_date import validate_date
+from my_first_repository.module_1.finance_manager_project.utilities.math_logic import Calculations
 
 def add_income_window(category_handler):
     categories = load_categories(category_handler)
