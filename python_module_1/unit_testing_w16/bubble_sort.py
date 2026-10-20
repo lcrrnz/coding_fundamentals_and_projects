@@ -21,3 +21,4 @@ def bubble_sort(list_to_sort):
 test_list = [87, 35, 14, 42, 93, 7]
 bubble_sort(test_list)
 print(test_list)
+print(test_list)
