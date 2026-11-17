@@ -1,7 +1,7 @@
 # Week 4: Python Basics & First Programs 🐍
 
 ## 🧭 Overview
-This week introduced the Python programming language. I practiced using the terminal, writing basic syntax, and understanding core programming concepts.
+This folder introduced the Python programming language. I practiced using the terminal, writing basic syntax, and understanding core programming concepts.
 
 ## 🧠 Key Concepts
 - Terminal usage and command-line interaction
